@@ -35,7 +35,7 @@
 	$conn->close();
 	?>
 <fieldset>
-<legend>Log Call</legend>
+<legend style="color:beige;">Log Call</legend>
 <form name="frmLogCall" method="post" action="dispatch.php" onSubmit="return wrproject();">
 	<table width="45%" border="2" align="center" cellpadding="5" cellspacing="5">
 	<tr>
