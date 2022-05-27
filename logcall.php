@@ -40,11 +40,11 @@
 	<table width="45%" border="2" align="center" cellpadding="5" cellspacing="5">
 	<tr>
 	<td width="20%" align="center">Name of Caller:</td>
-	<td width="50%"><input type="text" name="callerName" id="callerName"></td>
+	<td width="50%"><input type="text" name="callerName" id="callerName" required pattern="[A-Za-z]{1,}[]{i}[A-Za-z]{1,}"></td>
 	</tr>
 	<tr>
 	<td width="20%" align="center">Contact Number:</td>
-	<td width="50%"><input type="text" name="contactNo" id="contactNo"></td>
+	<td width="50%"><input type="text" name="contactNo" id="contactNo" maxlength="8" minlength="8" pattern="[6,8,9]{1}[0-9]{7}"></td>
 	</tr>
 	<tr>
 	<td width="50%" align="center">Location:</td>
